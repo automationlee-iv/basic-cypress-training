@@ -1,0 +1,19 @@
+{
+    "name": "leetest",
+    "email": "leetest@yopmail.com",
+    "password": "P@ssword1!",
+    "title": "Mrs.",
+    "birth_date": "01",
+    "birth_month": "March",
+    "birth_year": "1999",
+    "firstname": "test",
+    "lastname": "test",
+    "company": "test",
+    "address1": "test",
+    "address2": "test",
+    "country": "United States",
+    "zipcode": "123",
+    "state": "test",
+    "city": "test",
+    "mobile_number": "1324565"
+}
