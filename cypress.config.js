@@ -9,6 +9,16 @@ module.exports = defineConfig({
     overwrite: false,
     html: true,
     json: true,
+    charts: true,
+    showPassed: true,
+    showFailed: true,
+    showSkipped: true,
+    embeddedScreenshots: true,
+    inlineAssets: true,
+    reportPageTitle: 'Cypress Automation Report',
+    reportFilename: 'Automation-Report',
+    consoleLogs: true,
+    code: false,
   },
   e2e: {
     setupNodeEvents(on, config) {
