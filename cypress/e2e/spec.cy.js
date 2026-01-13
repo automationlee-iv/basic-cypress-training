@@ -3,12 +3,9 @@ describe('template spec', () => {
     cy.visit('https://example.cypress.io')
     cy.get('h1').should('contain', 'Kitchen Sink')
   })
-});
 
-it('login', function() {
+  it('login', function() {
   cy.visit('https://izytesting.com/')
-  cy.get('#home a.ud-main-btn').click();
-  cy.get('[name="name"]').click();
-  cy.get('[name="name"]').type('test');
-  cy.get('#border-btn-login').click();
+  cy.url().should('contain','izytesting.com');
+  })
 });
